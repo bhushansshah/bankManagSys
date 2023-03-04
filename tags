@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/bhushan/Documents/bankMSys/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+conFlag	main.c	/^unsigned int conFlag = 0;$/;"	v	typeref:typename:unsigned int
+dbname	main.c	/^static char *dbname = "bankManagmentSys";$/;"	v	typeref:typename:char *	file:
+deleteUser	mysqlFunc.c	/^void deleteUser(MYSQL **con, int userid){$/;"	f	typeref:typename:void
+deposit	mysqlFunc.c	/^void deposit(MYSQL **con, int userid, int depositAmount){$/;"	f	typeref:typename:void
+getBalance	mysqlFunc.c	/^int getBalance(MYSQL **con, int userid){$/;"	f	typeref:typename:int
+host	main.c	/^static char *host = "localhost";\/\/this is the ip address of the machine where database is pres/;"	v	typeref:typename:char *	file:
+insertUser	mysqlFunc.c	/^void insertUser(MYSQL **con, int userid, char *password, char *firstName, char *middleName, char/;"	f	typeref:typename:void
+isStringEqual	supportFunc.c	/^int isStringEqual(char *str1, char *str2){$/;"	f	typeref:typename:int
+isValidPassword	mysqlFunc.c	/^int isValidPassword(MYSQL **con, int userid, char *password){$/;"	f	typeref:typename:int
+isValidUserid	mysqlFunc.c	/^int isValidUserid(MYSQL **con, int userid){$/;"	f	typeref:typename:int
+isWithdrawalPossible	mysqlFunc.c	/^int isWithdrawalPossible(MYSQL **con, int userid, int withdrawAmount){$/;"	f	typeref:typename:int
+main	main.c	/^int main(){$/;"	f	typeref:typename:int
+pass	main.c	/^static char *pass = "PetronesTower1.";$/;"	v	typeref:typename:char *	file:
+port	main.c	/^unsigned int port = 3306;$/;"	v	typeref:typename:unsigned int
+printProfile	mysqlFunc.c	/^void printProfile(MYSQL **con, int userid){$/;"	f	typeref:typename:void
+toInt	supportFunc.c	/^int toInt(char *num){                   $/;"	f	typeref:typename:int
+transferMoney	mysqlFunc.c	/^void transferMoney(MYSQL **con, int userid, int desUserid, int money){$/;"	f	typeref:typename:void
+unix_socket	main.c	/^static char *unix_socket = NULL;$/;"	v	typeref:typename:char *	file:
+updateAddress	mysqlFunc.c	/^void updateAddress(MYSQL **con, int userid, char *input){$/;"	f	typeref:typename:void
+updateBranch	mysqlFunc.c	/^void updateBranch(MYSQL **con, int userid, char *input){$/;"	f	typeref:typename:void
+updateCity	mysqlFunc.c	/^void updateCity(MYSQL **con, int userid, char *input){$/;"	f	typeref:typename:void
+updateCountry	mysqlFunc.c	/^void updateCountry(MYSQL **con, int userid, char *input){$/;"	f	typeref:typename:void
+updateEmail	mysqlFunc.c	/^void updateEmail(MYSQL **con, int userid, char *input){$/;"	f	typeref:typename:void
+updateFirstName	mysqlFunc.c	/^void updateFirstName(MYSQL **con, int userid, char *input){$/;"	f	typeref:typename:void
+updateLastName	mysqlFunc.c	/^void updateLastName(MYSQL **con, int userid, char *input){$/;"	f	typeref:typename:void
+updateMiddleName	mysqlFunc.c	/^void updateMiddleName(MYSQL **con, int userid, char *input){$/;"	f	typeref:typename:void
+updateProfile	mysqlFunc.c	/^void updateProfile(MYSQL **con, int userid){$/;"	f	typeref:typename:void
+updateState	mysqlFunc.c	/^void updateState(MYSQL **con, int userid, char *input){$/;"	f	typeref:typename:void
+user	main.c	/^static char *user = "root";$/;"	v	typeref:typename:char *	file:
+withdraw	mysqlFunc.c	/^void withdraw(MYSQL **con, int userid, int withdrawAmount){$/;"	f	typeref:typename:void
